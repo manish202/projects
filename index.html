@@ -28,11 +28,13 @@
             padding: 20px;
             border-bottom: 2px solid var(--c1);
         }
-        .social{
-            padding: 10px;
+        .d-flex{
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .social{
+            padding: 10px;
             flex-wrap: wrap;
         }
         .social a{
@@ -46,24 +48,26 @@
         .social a:hover{
             border: 2px dashed var(--c1);
         }
-        ol{
+        .container{
             padding: 20px;
-            min-height: 50vh;
             margin: 0px auto;
-            width: 80%;
+            width: 90%;
+            flex-wrap: wrap;
         }
-        ol li{
-            text-align:left;
-            padding: 10px;
-            font-size: 20px;
+        .card{
+            color: var(--c1);
+            width: 30%;
+            margin: 10px;
+            border: 2px solid var(--c1);
+            padding: 5px;
+            letter-spacing: 1px;
+            border-radius: 3px;
         }
-        ol li a{
-            color: black;
-        }
-        ol li span{
-            color: crimson;
-            display: block;
-            text-align: left;
+        .card .img-bx img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 3px;
         }
         footer h3{
             padding: 20px 10px;
@@ -71,9 +75,9 @@
             text-shadow: 0 0 black;
             border-top: 2px solid var(--c1);
         }
-        @media (max-width: 770px){
-            ol{
-                width: 90%;
+        @media (max-width:770px){
+            .card{
+                width: 100%;
             }
         }
     </style>
@@ -82,135 +86,285 @@
     <header>
         <h1>all code projects</h1>
     </header>
-    <div class="social">
+    <div class="d-flex social">
         <a target="_blank" href="https://github.com/manish202"><i class="fa-brands fa-github"></i></a>
         <a target="_blank" href="https://in.linkedin.com/in/manish-prajapati-640b061b6"><i class="fa-brands fa-linkedin"></i></a>
         <a target="_blank" href="https://codepen.io/manish202"><i class="fa-brands fa-codepen"></i></a>
         <a target="_blank" href="https://stackoverflow.com/users/19772672/manish-prajapati"><i class="fa-brands fa-stack-overflow"></i></a>
         <a target="_blank" href="https://www.facebook.com/profile.php?id=100031940615602"><i class="fa-brands fa-facebook-f"></i></a>
     </div>
-    <ol>
-        <li>
-            <a href="https://manish202.github.io/restaurants/" target="_blank">klassy restaurants (26-11-2020)</a>
-            <span>[Html, Css, Bootstrap 4, Jquery, Owl Carousel]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/fashion-hub/" target="_blank">fashion hub clothing site (18-12-2020)</a>
-            <span>[Html, Css, Bootstrap 4, Jquery, Aos]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/covid-19-api/" target="_blank">covid 19 api (05-01-2021)</a>
-            <span>[Html, Css, Jquery, Ajax]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/blogging/" target="_blank">blogging (23-02-2021)</a>
-            <span>[Html, Css, Bootstrap 4, Jquery]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/freewebtemplates/" target="_blank">free web templates (09-06-2021)</a>
-            <span>[Html, Css, Bootstrap 4, Jquery, Aos]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/quantum/" target="_blank">quantum electronic site (23-06-2021)</a>
-            <span>[Html, Css, Bootstrap 4, Jquery]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/bitzhub/" target="_blank">bitzhub clothing site (12-08-2021)</a>
-            <span>[Html, Css]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/clothing_site/" target="_blank">fashion clothing site (12-08-2021)</a>
-            <span>[Html, Css, Jquery, swiper js]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/kirana-store/" target="_blank">kirana store (20-08-2021)</a>
-            <span>[Html, Css, Jquery]</span>
-        </li>
-        <li>
-            <a href="http://kiranatest.000webhostapp.com/" target="_blank">ashapurionline grocery store (15-10-2021 to 05-12-2021)</a>
-            <span>[Html, Css, Jquery, php, mysql, ajax, re-captcha, admin panel]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/gold/" target="_blank">gold jewellery (30-01-2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/meme-api/" target="_blank">meme api site (31-01-2022)</a>
-            <span>[Html, Css, Javascript, Ajax]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/FirstReactWebsite/" target="_blank">first react website (09-02-2022)</a>
-            <span>[Html, Css, ReactJs]</span>
-        </li>
-        <li>
-            <a href="https://ashapurionline.in/" target="_blank">ashapurionline blog (18-02-2022)</a>
-            <span>[Html, Css, Jquery, Php, Mysql, Ajax, Google Analytics, Admin Panel]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/bootstrap5/" target="_blank">bootstrap 5 & git (25-02-2022)</a>
-            <span>[Html, Css, Bootstrap 5, Git, Github]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/CatApi/" target="_blank">React + Cat API + Unlimited Scroll (27-02-2022)</a>
-            <span>[Html, Css, ReactJs]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/react_crud/" target="_blank">react js todo list (03-07-2022)</a>
-            <span>[Html, Css, Bootstrap 5, ReactJs]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/react_cart/" target="_blank">react js checkout cart page (09-7-2022)</a>
-            <span>[Html, Css, ReactJs, Mui]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/random-movies/" target="_blank">react js random movies using api (12-07-2022)</a>
-            <span>[Html, Css, ReactJs, Ajax]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/react-news-api/" target="_blank">react js news api (13-07-2022)</a>
-            <span>[Html, Css, ReactJs, Ajax]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/manishpay/" target="_blank">react js manishpay (19-07-2022)</a>
-            <span>[Html, Css, ReactJs]</span>
-        </li>
-        <li>
-            <a href="https://blinkitclonemanish.herokuapp.com/" target="_blank">blinkit clone MERN (30/07/2022 to 15/08/2022)</a>
-            <span>[Html, Css, ReactJs, Ajax, SwiperJs, Get User Location, MongoDb, ExpressJs, Mongoose]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/todo/" target="_blank">pure js todo with localstorage (28/08/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/timer/" target="_blank">js timers & clock (29/08/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/budgetapp/" target="_blank">js budget app (30/08/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/calculator/" target="_blank">js calculator (30/08/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/carousel/" target="_blank">js carousel (30/08/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/pass_generator/" target="_blank">js random password generator (03/09/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/color_generator/" target="_blank">js random color generator (05/09/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-        <li>
-            <a href="https://manish202.github.io/javascript-projects/chart_clock/" target="_blank">js chart clock (06/09/2022)</a>
-            <span>[Html, Css, Javascript]</span>
-        </li>
-     </ol>
+    <div class="d-flex container">
+        <a target="_blank" href="https://manish202.github.io/restaurants/" class="card">
+            <div class="img-bx">
+                <img src="images/klassy.png" alt="">
+            </div>
+            <div class="title">
+                <h3>klassy restaurants (26-11-2020)</h3>
+                <span>[Html, Css, Bootstrap 4, Jquery, Owl Carousel]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/fashion-hub/" class="card">
+            <div class="img-bx">
+                <img src="images/fashionhub.png" alt="">
+            </div>
+            <div class="title">
+                <h3>fashion hub clothing site (18-12-2020)</h3>
+                <span>[Html, Css, Bootstrap 4, Jquery, Aos]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/covid-19-api/" class="card">
+            <div class="img-bx">
+                <img src="images/covid.png" alt="">
+            </div>
+            <div class="title">
+                <h3>covid 19 api (05-01-2021)</h3>
+                <span>[Html, Css, Jquery, Ajax]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/blogging/" class="card">
+            <div class="img-bx">
+                <img src="images/sora24.png" alt="">
+            </div>
+            <div class="title">
+                <h3>blogging (23-02-2021)</h3>
+                <span>[Html, Css, Bootstrap 4, Jquery]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/freewebtemplates/" class="card">
+            <div class="img-bx">
+                <img src="images/freewebtemp.png" alt="">
+            </div>
+            <div class="title">
+                <h3>free web templates (09-06-2021)</h3>
+                <span>[Html, Css, Bootstrap 4, Jquery, Aos]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/quantum/" class="card">
+            <div class="img-bx">
+                <img src="images/quantum.png" alt="">
+            </div>
+            <div class="title">
+                <h3>quantum electronic site (23-06-2021)</h3>
+                <span>[Html, Css, Bootstrap 4, Jquery]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/bitzhub/" class="card">
+            <div class="img-bx">
+                <img src="images/bitzhub.png" alt="">
+            </div>
+            <div class="title">
+                <h3>bitzhub clothing site (12-08-2021)</h3>
+                <span>[Html, Css]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/clothing_site/" class="card">
+            <div class="img-bx">
+                <img src="images/fashion.png" alt="">
+            </div>
+            <div class="title">
+                <h3>fashion clothing site (12-08-2021)</h3>
+                <span>[Html, Css, Jquery, swiper js]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/kirana-store/" class="card">
+            <div class="img-bx">
+                <img src="images/ashapuri_gro.png" alt="">
+            </div>
+            <div class="title">
+                <h3>kirana store (20-08-2021)</h3>
+                <span>[Html, Css, Jquery]</span>
+            </div>
+        </a>
+        <a target="_blank" href="http://kiranatest.000webhostapp.com/" class="card">
+            <div class="img-bx">
+                <img src="images/ashapurionline.png" alt="">
+            </div>
+            <div class="title">
+                <h3>ashapurionline grocery store (15-10-2021 to 05-12-2021)</h3>
+                <span>[Html, Css, Jquery, php, mysql, ajax, re-captcha, admin panel]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/gold/" class="card">
+            <div class="img-bx">
+                <img src="images/gold.png" alt="">
+            </div>
+            <div class="title">
+                <h3>gold jewellery (30-01-2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/meme-api/" class="card">
+            <div class="img-bx">
+                <img src="images/memeapi.png" alt="">
+            </div>
+            <div class="title">
+                <h3>meme api site (31-01-2022)</h3>
+                <span>[Html, Css, Javascript, Ajax]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/FirstReactWebsite/" class="card">
+            <div class="img-bx">
+                <img src="images/first_react.png" alt="">
+            </div>
+            <div class="title">
+                <h3>first react website (09-02-2022)</h3>
+                <span>[Html, Css, ReactJs]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://ashapurionline.in/" class="card">
+            <div class="img-bx">
+                <img src="images/ashapuri_blog.png" alt="">
+            </div>
+            <div class="title">
+                <h3>ashapurionline blog (18-02-2022)</h3>
+                <span>[Html, Css, Jquery, Php, Mysql, Ajax, Google Analytics, Admin Panel]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/bt5/" class="card">
+            <div class="img-bx">
+                <img src="images/bt5.png" alt="">
+            </div>
+            <div class="title">
+                <h3>bootstrap 5 & git (25-02-2022)</h3>
+                <span>[Html, Css, Bootstrap 5, Git, Github]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/CatApi/" class="card">
+            <div class="img-bx">
+                <img src="images/catapi.png" alt="">
+            </div>
+            <div class="title">
+                <h3>React + Cat API + Unlimited Scroll (27-02-2022)</h3>
+                <span>[Html, Css, ReactJs]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/react_crud/" class="card">
+            <div class="img-bx">
+                <img src="images/reactbt5.png" alt="">
+            </div>
+            <div class="title">
+                <h3>react js todo list (03-07-2022)</h3>
+                <span>[Html, Css, Bootstrap 5, ReactJs]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/react_cart/" class="card">
+            <div class="img-bx">
+                <img src="images/reactcart.png" alt="">
+            </div>
+            <div class="title">
+                <h3>react js checkout cart page (09-7-2022)</h3>
+                <span>[Html, Css, ReactJs, Mui]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/random-movies/" class="card">
+            <div class="img-bx">
+                <img src="images/movieapi.png" alt="">
+            </div>
+            <div class="title">
+                <h3>react js random movies using api (12-07-2022)</h3>
+                <span>[Html, Css, ReactJs, Ajax]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/react-news-api/" class="card">
+            <div class="img-bx">
+                <img src="images/newsapi.png" alt="">
+            </div>
+            <div class="title">
+                <h3>react js news api (13-07-2022)</h3>
+                <span>[Html, Css, ReactJs, Ajax]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/manishpay/" class="card">
+            <div class="img-bx">
+                <img src="images/manishpay.png" alt="">
+            </div>
+            <div class="title">
+                <h3>react js manishpay (19-07-2022)</h3>
+                <span>[Html, Css, ReactJs]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://blinkitclonemanish.herokuapp.com/" class="card">
+            <div class="img-bx">
+                <img src="images/blinkit.png" alt="">
+            </div>
+            <div class="title">
+                <h3>blinkit clone MERN (30/07/2022 to 15/08/2022)</h3>
+                <span>[Html, Css, ReactJs, Ajax, SwiperJs, Get User Location, MongoDb, ExpressJs, Mongoose]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/todo/" class="card">
+            <div class="img-bx">
+                <img src="images/purejstodo.png" alt="">
+            </div>
+            <div class="title">
+                <h3>pure js todo with localstorage (28/08/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/timer/" class="card">
+            <div class="img-bx">
+                <img src="images/jsclock.png" alt="">
+            </div>
+            <div class="title">
+                <h3>js timers & clock (29/08/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/budgetapp/" class="card">
+            <div class="img-bx">
+                <img src="images/budgetapp.png" alt="">
+            </div>
+            <div class="title">
+                <h3>js budget app (30/08/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/calculator/" class="card">
+            <div class="img-bx">
+                <img src="images/calculator.png" alt="">
+            </div>
+            <div class="title">
+                <h3>js calculator (30/08/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/carousel/" class="card">
+            <div class="img-bx">
+                <img src="images/carousel.png" alt="">
+            </div>
+            <div class="title">
+                <h3>js carousel (30/08/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/pass_generator/" class="card">
+            <div class="img-bx">
+                <img src="images/passgen.png" alt="">
+            </div>
+            <div class="title">
+                <h3>js random password generator (03/09/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/color_generator/" class="card">
+            <div class="img-bx">
+                <img src="images/colorgen.png" alt="">
+            </div>
+            <div class="title">
+                <h3>js random color generator (05/09/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+        <a target="_blank" href="https://manish202.github.io/javascript-projects/chart_clock/" class="card">
+            <div class="img-bx">
+                <img src="images/chartclock.png" alt="">
+            </div>
+            <div class="title">
+                <h3>js chart clock (06/09/2022)</h3>
+                <span>[Html, Css, Javascript]</span>
+            </div>
+        </a>
+    </div>
     <footer>
         <h3>design & developed by manish prajapati</h3>
     </footer>
