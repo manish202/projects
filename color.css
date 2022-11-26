@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+}
+:root{
+    --c1:darkslategray;
+}
+.bb{
+    border-bottom: 2px solid var(--c1);
+}
+header{
+    text-align: center;
+    color: var(--c1);
+    padding: 20px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.social a{
+    color: var(--c1);
+    padding: 10px;
+    border: 2px solid var(--c1);
+    margin: 5px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.social a:hover{
+    border: 2px dashed var(--c1);
+}
+.container{
+    padding: 20px;
+    margin: 0px auto;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.card{
+    color: var(--c1);
+    width: 30%;
+    margin: 10px;
+    border: 2px solid var(--c1);
+    padding: 5px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.card .img-bx img{
+    transition: all linear 0.4s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+footer h3{
+    padding: 20px 10px;
+    color: var(--c1);
+    text-shadow: 0 0 black;
+    border-top: 2px solid var(--c1);
+}
+.card:hover img{
+    transform: scale(1.05);
+}
+.filters{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#search{
+    padding: 0 20px;
+}
+#search input[type="text"]{
+    text-align: left;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--c1);
+    font-size: 17px;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    outline: none;
+    border: 2px solid var(--c1);
+    background-color: #fff;
+    color: var(--c1);
+    letter-spacing: 1px;
+    font-size: 17px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--c1);
+    color: #fff;
+    border: 2px solid #fff;
+}
+#order{
+    font-size: 17px;
+    padding: 10px;
+    margin: 0 20px;
+    outline: none;
+}
+#pagination{
+    padding: 15px;
+}
+#pagination button.active{
+    background-color: var(--c1);
+    color: #fff;
+    border: 2px solid #fff;
+}
+#pagination button{
+    margin: 5px;
+}
+@media (max-width:770px){
+    .card{
+        width: 100%;
+    }
+    #search{
+        margin-bottom: 20px;
+    }
+}
