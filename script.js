@@ -261,7 +261,7 @@ const data = [
     {
         name:"ashapurionline grocery store",
         keywords:"Html, Css, Jquery, php, mysql, ajax, re-captcha, admin panel",
-        link:"https://ashapurionline.000webhostapp.com/",
+        link:"https://kiranatest.000webhostapp.com/",
         date:"15/10/2021",
         youtube:null,
         thumbnail:"ashapurionline.png"
@@ -325,7 +325,7 @@ const data = [
     {
         name:"ashapurionline blog",
         keywords:"Html, Css, Jquery, Php, Mysql, Ajax, Google Analytics, Admin Panel",
-        link:"https://ashapurionline.in/",
+        link:"http://ashapurionline.000webhostapp.com/",
         date:"18/02/2022",
         youtube:null,
         thumbnail:"ashapuri_blog.png"
