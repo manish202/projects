@@ -325,7 +325,7 @@ const data = [
     {
         name:"ashapurionline blog",
         keywords:"Html, Css, Jquery, Php, Mysql, Ajax, Google Analytics, Admin Panel",
-        link:"http://ashapurionline.000webhostapp.com/",
+        link:"https://ashapurionline.000webhostapp.com/",
         date:"18/02/2022",
         youtube:null,
         thumbnail:"ashapuri_blog.png"
@@ -561,6 +561,22 @@ const data = [
         date:"28/10/2022",
         youtube:"_FvdHVpgX3I",
         thumbnail:"dog_img_api.png"
+    },
+    {
+        name:"React Node Fs Crud Job Challenge",
+        keywords:"html, css, reactjs, nodejs",
+        link:"https://github.com/manish202/react_node_json_crud",
+        date:"11/11/2022",
+        youtube:null,
+        thumbnail:"react-node-fs-crud.png"
+    },
+    {
+        name:"Github Users Api Job Challenge",
+        keywords:"html, css, reactjs",
+        link:"https://github-users-api.onrender.com/",
+        date:"08/12/2022",
+        youtube:null,
+        thumbnail:"github-users-api.png"
     }
 ];
 const refreshData = () => {
