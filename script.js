@@ -577,6 +577,14 @@ const data = [
         date:"08/12/2022",
         youtube:null,
         thumbnail:"github-users-api.png"
+    },
+    {
+        name:"My Personal Portfolio Website",
+        keywords:"html, css, javascript",
+        link:"https://manish202.github.io/portfolio/",
+        date:"04/01/2023",
+        youtube:null,
+        thumbnail:"my-portfolio.png"
     }
 ];
 const refreshData = () => {
