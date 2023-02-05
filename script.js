@@ -195,6 +195,14 @@ const data = [
         thumbnail:"glassmorphism.png"
     },
     {
+        name:"shopnow php ecommerce",
+        keywords:"html, css, jquery, php",
+        link:"https://github.com/manish202/shopnow-php-ecommerce",
+        date:"16/04/2021",
+        youtube:"Ln1CVDOQ46c",
+        thumbnail:"shop-now.png"
+    },
+    {
         name:"free web templates",
         keywords:"Html, Css, Bootstrap 4, Jquery, Aos",
         link:"https://manish202.github.io/freewebtemplates/",
@@ -435,12 +443,28 @@ const data = [
         thumbnail:"newsapi.png"
     },
     {
+        name:"react firebase project",
+        keywords:"Html, Css, ReactJs, firebase",
+        link:"https://github.com/manish202/firebase-auth",
+        date:"16/07/2022",
+        youtube:"5kSfWtJcw8o",
+        thumbnail:"firebase-react.png"
+    },
+    {
         name:"react js manishpay",
         keywords:"Html, Css, ReactJs",
         link:"https://manish202.github.io/manishpay/",
         date:"19/07/2022",
         youtube:null,
         thumbnail:"manishpay.png"
+    },
+    {
+        name:"MERN Auth Project",
+        keywords:"Html, Css, Reactjs, Bcryptjs, Expressjs, Mongoose, Jwt Etc...",
+        link:"https://github.com/manish202/mern-auth",
+        date:"24/07/2022",
+        youtube:"sM372X9YV0Y",
+        thumbnail:"mern-auth.png"
     },
     {
         name:"blinkit clone MERN",
@@ -567,7 +591,7 @@ const data = [
         keywords:"html, css, reactjs, nodejs",
         link:"https://github.com/manish202/react_node_json_crud",
         date:"11/11/2022",
-        youtube:null,
+        youtube:"K2MRjje5X-g",
         thumbnail:"react-node-fs-crud.png"
     },
     {
@@ -575,8 +599,16 @@ const data = [
         keywords:"html, css, reactjs",
         link:"https://github-users-api.onrender.com/",
         date:"08/12/2022",
-        youtube:null,
+        youtube:"plCei6NRCNo",
         thumbnail:"github-users-api.png"
+    },
+    {
+        name:"hair salon wordpress website",
+        keywords:"wordpress",
+        link:"https://github.com/manish202/laima_unisex_salon",
+        date:"30/12/2022",
+        youtube:"5xx0YYk89yY",
+        thumbnail:"laima-unisex.png"
     },
     {
         name:"My Personal Portfolio Website",
@@ -585,6 +617,14 @@ const data = [
         date:"04/01/2023",
         youtube:null,
         thumbnail:"my-portfolio.png"
+    },
+    {
+        name:"onwardpass flight reservation",
+        keywords:"html, css, jquery, php, mysql",
+        link:"https://onwardpass.com/",
+        date:"08/01/2023",
+        youtube:null,
+        thumbnail:"onwardpass.png"
     }
 ];
 const refreshData = () => {
