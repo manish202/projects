@@ -625,6 +625,14 @@ const data = [
         date:"08/01/2023",
         youtube:null,
         thumbnail:"onwardpass.png"
+    },
+    {
+        name:"naans & curries react website",
+        keywords:"html, css, reactjs",
+        link:"https://naans-and-curries.onrender.com/",
+        date:"11/06/2023",
+        youtube:null,
+        thumbnail:"naans-curries.png"
     }
 ];
 const refreshData = () => {
