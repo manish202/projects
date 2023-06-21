@@ -633,6 +633,14 @@ const data = [
         date:"11/06/2023",
         youtube:null,
         thumbnail:"naans-curries.png"
+    },
+    {
+        name:"Indulge hair salon",
+        keywords:"html, css, reactjs, nextjs",
+        link:"https://indulgestyle.onrender.com/",
+        date:"17/06/2023",
+        youtube:null,
+        thumbnail:"indulge.png"
     }
 ];
 const refreshData = () => {
