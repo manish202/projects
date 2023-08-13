@@ -641,6 +641,22 @@ const data = [
         date:"17/06/2023",
         youtube:null,
         thumbnail:"indulge.png"
+    },
+    {
+        name:"React mui todo app",
+        keywords:"html, css, reactjs, mui",
+        link:"https://react-todo-app-o1je.onrender.com/",
+        date:"12/08/2023",
+        youtube:null,
+        thumbnail:"react-mui-todo-app.png"
+    },
+    {
+        name:"React mui weather app",
+        keywords:"html, css, reactjs, mui",
+        link:"https://react-weather-app-mui.onrender.com/",
+        date:"13/08/2023",
+        youtube:null,
+        thumbnail:"weather-app.png"
     }
 ];
 const refreshData = () => {
