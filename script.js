@@ -657,6 +657,14 @@ const data = [
         date:"13/08/2023",
         youtube:null,
         thumbnail:"weather-app.png"
+    },
+    {
+        name:"React music player app",
+        keywords:"html, css, reactjs, mui",
+        link:"https://reactjs-music-player.onrender.com/",
+        date:"29/09/2023",
+        youtube:null,
+        thumbnail:"reactjs-music-player.png"
     }
 ];
 const refreshData = () => {
