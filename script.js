@@ -665,11 +665,19 @@ const data = [
         date:"29/09/2023",
         youtube:null,
         thumbnail:"reactjs-music-player.png"
+    },
+    {
+        name:"React video player app",
+        keywords:"html, css, reactjs, mui",
+        link:"https://reactjs-video-player.onrender.com/",
+        date:"18/10/2023",
+        youtube:null,
+        thumbnail:"reactjs-video-player.png"
     }
 ];
 const refreshData = () => {
     box.innerHTML = "";
-    const limit = 10;
+    const limit = 12;
     let offset = (state.cur_page - 1)*limit;
     let temp_data = (state.filter === "l-to-o") ? [...data].reverse():[...data];
     if(state.search != ""){
