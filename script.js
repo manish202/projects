@@ -673,6 +673,14 @@ const data = [
         date:"18/10/2023",
         youtube:null,
         thumbnail:"reactjs-video-player.png"
+    },
+    {
+        name:"Laravel news blog website",
+        keywords:"html, css, bootstrap, laravel",
+        link:"https://github.com/manish202/laravel_news_blog",
+        date:"27/10/2023",
+        youtube:null,
+        thumbnail:"laravel_news_blog.png"
     }
 ];
 const refreshData = () => {
