@@ -627,6 +627,14 @@ const data = [
         thumbnail:"onwardpass.png"
     },
     {
+        name:"Php News Blog 2 With CMS",
+        keywords:"Html, Css, Php, Mysql",
+        link:"https://github.com/manish202/php_news_blog2",
+        date:"22/05/2023",
+        youtube:null,
+        thumbnail:"php_news_blog2.png"
+    },
+    {
         name:"naans & curries react website",
         keywords:"html, css, reactjs",
         link:"https://naans-and-curries.onrender.com/",
@@ -681,6 +689,14 @@ const data = [
         date:"27/10/2023",
         youtube:null,
         thumbnail:"laravel_news_blog.png"
+    },
+    {
+        name:"blinkit-ecom with MERN, CMS",
+        keywords:"Html, Css, bootstrap, ReactJs, Ajax, Geolocation, MongoDb, ExpressJs, Mongoose etc..",
+        link:"https://blinkit-ecom.onrender.com/",
+        date:"16/11/2023",
+        youtube:null,
+        thumbnail:"blinkit-ecom.png"
     }
 ];
 const refreshData = () => {
