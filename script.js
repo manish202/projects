@@ -697,6 +697,14 @@ const data = [
         date:"16/11/2023",
         youtube:null,
         thumbnail:"blinkit-ecom.png"
+    },
+    {
+        name:"nextjs restaurant SSG",
+        keywords:"Html, Css, bootstrap, nextjs",
+        link:"https://nextjs-restaurant.onrender.com/",
+        date:"19/11/2023",
+        youtube:null,
+        thumbnail:"nextjs-restaurant.png"
     }
 ];
 const refreshData = () => {
