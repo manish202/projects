@@ -705,6 +705,14 @@ const data = [
         date:"19/11/2023",
         youtube:null,
         thumbnail:"nextjs-restaurant.png"
+    },
+    {
+        name:"TodoApp, Accordion, GithubUsers, ShoppingCart",
+        keywords:"Html, Css, bootstrap, reactjs",
+        link:"https://manish202.github.io/react_projects/",
+        date:"15/04/2024",
+        youtube:null,
+        thumbnail:"todoapp_accordion_githubusers_shoppingcart.png"
     }
 ];
 const refreshData = () => {
