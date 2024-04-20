@@ -713,6 +713,14 @@ const data = [
         date:"15/04/2024",
         youtube:null,
         thumbnail:"todoapp_accordion_githubusers_shoppingcart.png"
+    },
+    {
+        name:"MERN Project",
+        keywords:"Html, Css, bootstrap, reactjs, nodejs, expressjs, mongodb",
+        link:"https://mern-project-9xcw.onrender.com/",
+        date:"17/04/2024",
+        youtube:null,
+        thumbnail:"mern_project.png"
     }
 ];
 const refreshData = () => {
