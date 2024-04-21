@@ -721,6 +721,14 @@ const data = [
         date:"17/04/2024",
         youtube:null,
         thumbnail:"mern_project.png"
+    },
+    {
+        name:"Styled component practice",
+        keywords:"Html, Css, reactjs",
+        link:"https://github.com/manish202/styled-compo-practice",
+        date:"21/04/2024",
+        youtube:null,
+        thumbnail:"styled-compo.png"
     }
 ];
 const refreshData = () => {
