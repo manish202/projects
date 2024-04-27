@@ -729,6 +729,14 @@ const data = [
         date:"21/04/2024",
         youtube:null,
         thumbnail:"styled-compo.png"
+    },
+    {
+        name:"React static e-commerce",
+        keywords:"Html, Css, reactjs",
+        link:"https://react-static-ecom.onrender.com/",
+        date:"22/04/2024",
+        youtube:null,
+        thumbnail:"react-static-ecom.png"
     }
 ];
 const refreshData = () => {
