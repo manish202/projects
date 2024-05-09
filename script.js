@@ -737,6 +737,14 @@ const data = [
         date:"22/04/2024",
         youtube:null,
         thumbnail:"react-static-ecom.png"
+    },
+    {
+        name:"Graphql exploration project",
+        keywords:"Html, Css, bootstrap, reactjs, mongodb, graphql",
+        link:"https://github.com/manish202/first_fraphql_project",
+        date:"08/05/2024",
+        youtube:null,
+        thumbnail:"first_graphql_project.png"
     }
 ];
 const refreshData = () => {
